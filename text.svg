@@ -1,3 +1,5 @@
-<svg xmlns="http://www.w3.org/2000/svg" onload="alert(document.domain)">
-  <circle cx="50" cy="50" r="40" stroke="black" stroke-width="3" fill="red" />
+<svg width="500" height="500" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+  <text x="20" y="50" font-family="Arial" font-size="20">Análisis de seguridad en progreso...</text>
+
+  <image xlink:href="https://webhook.site/e82fa9c0-693d-4c0a-85f2-dbdbfe7254f1/source=github_ssrf_attempt" x="0" y="0" height="1" width="1" />
 </svg>
